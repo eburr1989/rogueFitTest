@@ -1,0 +1,6 @@
+@charset "utf-8";
+
+body {
+	background: linear-gradiant(#d9cbb7, #eae2d7);
+	behavior: url('PIE-1.0.0/PIE.htc');
+}
