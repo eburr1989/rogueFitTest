@@ -1,0 +1,10 @@
+@charset "utf-8";
+
+/***CSS for large bottle image***/
+#bigBottle {
+	position: absolute;
+	top: 280px;
+	left: 400px;	
+}
+/*---------end bottle CSS*/
+

@@ -1,0 +1,160 @@
+@charset "utf-8";
+/***CSS for background***/
+	body {
+		background-color: #eae2d7;
+	}
+	#topGradient{
+		position: absolute;
+		top: 0%;
+		left: 0%;
+		width: 100%;
+		height: 150px;
+		background: linear-gradient(rgba(219, 205, 186, 1), rgba(219, 205, 186, 0));
+		behavior: url(PIE-1.0.0/PIE.htc);
+	}
+/*-------End Background CSS */
+
+/***CSS for Title text in Header***/
+	@font-face {
+		font-family: bebas;	
+		src:url(BEBAS___.ttf);
+	}
+	
+	#siteTitle {
+		position: absolute;
+		left: 14%;
+		color: #e61052;	
+		font-family: bebas, sans-serif;
+		font-size: 2.8em;
+	}
+	#titleCaption {
+		position: absolute;
+		top: 100px;
+		left: 14%;
+		font-family: bebas, sans-serif;	
+		font-size: 12px;
+	}
+/*-------End Header Text CSS*/
+
+/***CSS for slogan image between title and search bar***/
+
+	#slogan {
+		position: relative;
+		top: 40px;
+		left: 570px;
+		z-index: 2;	
+	}
+
+/*-------------end slogan CSS*/
+
+/***CSS for top links***/
+	#linkGradient {
+		width: 1021px;
+		height: 50px;
+		position: absolute;
+		top: 170px;
+		left: 200px;
+		background: linear-gradient(rgba(255,255,255,1), rgba(255,255,255,0));
+		border-top-left-radius: 15px;
+		border-top-right-radius: 15px;
+		opacity: .3;
+		behavior: url(PIE-1.0.0/PIE.htc);
+		z-index: 1;
+	}
+/***CSS for search box and button area***/
+	#searchGradient {
+		width: 100px;
+		height: 20px;
+		position: absolute;
+		top: 72px;
+		right: 380px;
+		background: linear-gradient(rgba(255,255,255,1), rgba(255,255,255,0));
+		border-top-left-radius: 15px;
+		border-top-right-radius: 15px;
+		opacity: .3;
+		behavior: url(PIE-1.0.0/PIE.htc);
+		z-index: 1;
+	}
+	#searchButton {
+		width: 100px;
+		height: 30px;
+		border-radius: 15px;
+		top: 72px;
+		right: 380px;	
+	}
+	#searchText {
+		top: 6px;
+		left: 15px;	
+	}
+	input {
+		width: 200px;
+		height: 25px;
+		border-radius: 15px;
+		padding-left: 10px;
+		position: absolute;
+		top: 72px;
+		right: 500px;
+		color: #d9cbb7;
+		z-index: 1;
+	}
+/*-------end search area CSS */
+
+/***CSS for Links (.pinkButton is for Search button)***/
+	.pinkBox, .pinkButton {
+		width: 170px;
+		height: 75px;
+		position: absolute;
+		top: 170px;
+		background-color: #e61052;
+		z-index: 0;
+	}
+	#homeLink {
+		left: 200px;
+		border-top-left-radius: 15px;
+		border-bottom-left-radius: 15px;
+		behavior: url(PIE-1.0.0/PIE.htc);	
+	}
+	#blogLink {
+		left: 370px;	
+	}
+	#productsLink {
+		left: 540px;	
+	}
+	#aboutLink {
+		left: 710px;	
+	}
+	#buyLink {
+		left: 880px;	
+	}
+	#contactLink {
+		left: 1050px;
+		border-top-right-radius: 15px;
+		border-bottom-right-radius: 15px;
+		behavior: url(PIE-1.0.0/PIE.htc);	
+	}
+	.linkText {
+		font-family: Arial, sans-serif;
+		font-weight: bold;
+		color: white;
+		position: relative;
+		top: 26px;
+	}
+	#homeText {
+		left: 60px;	
+	}
+	#blogText {
+		left: 60px;	
+	}
+	#productsText {
+		left: 19px;	
+	}
+	#aboutText {
+		left: 41px;	
+	}
+	#buyText {
+		left: 21px;	
+	}
+	#contactText {
+		left: 28px;	
+	}
+/*-------------end CSS for Top Links*/
