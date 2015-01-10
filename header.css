@@ -47,34 +47,8 @@
 
 /*-------------end slogan CSS*/
 
-/***CSS for top links***/
-	#linkGradient {
-		width: 1021px;
-		height: 50px;
-		position: absolute;
-		top: 170px;
-		left: 200px;
-		background: linear-gradient(rgba(255,255,255,1), rgba(255,255,255,0));
-		border-top-left-radius: 15px;
-		border-top-right-radius: 15px;
-		opacity: .3;
-		behavior: url(PIE-1.0.0/PIE.htc);
-		z-index: 1;
-	}
+
 /***CSS for search box and button area***/
-	#searchGradient {
-		width: 100px;
-		height: 20px;
-		position: absolute;
-		top: 72px;
-		right: 380px;
-		background: linear-gradient(rgba(255,255,255,1), rgba(255,255,255,0));
-		border-top-left-radius: 15px;
-		border-top-right-radius: 15px;
-		opacity: .3;
-		behavior: url(PIE-1.0.0/PIE.htc);
-		z-index: 1;
-	}
 	#searchButton {
 		width: 100px;
 		height: 30px;
@@ -100,12 +74,16 @@
 /*-------end search area CSS */
 
 /***CSS for Links (.pinkButton is for Search button)***/
+	a:link {
+		text-decoration: none;	
+	}
 	.pinkBox, .pinkButton {
 		width: 170px;
-		height: 75px;
+		height: 57px;
 		position: absolute;
 		top: 170px;
-		background-color: #e61052;
+		background-image: url(images/linkDefault.png);
+		background-repeat: repeat-x;
 		z-index: 0;
 	}
 	#homeLink {
@@ -137,7 +115,7 @@
 		font-weight: bold;
 		color: white;
 		position: relative;
-		top: 26px;
+		top: 20px;
 	}
 	#homeText {
 		left: 60px;	

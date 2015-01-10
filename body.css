@@ -1,10 +1,264 @@
 @charset "utf-8";
 
 /***CSS for large bottle image***/
-#bigBottle {
-	position: absolute;
-	top: 280px;
-	left: 400px;	
-}
+	#bigBottle {
+		position: absolute;
+		top: 280px;
+		left: 430px;	
+	}
 /*---------end bottle CSS*/
 
+/***CSS for Left side of bottle***/
+	#LeftColumn {
+		position: relative;
+		top: 150px;
+		left: 200px;
+		z-index: 3;	
+	}
+	#xPlosion {
+		font-family: Bebas, Arial, sans-serif;
+		color: #e61052;	
+		font-size: 3em;
+	}
+	#xPloCap {
+		font-family: Bebas, Arial, sans-serif;
+		font-size: 23pt;
+		margin-top: -15px;	
+	}
+	#pinkText {
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 12pt;
+		font-weight: bold;
+		color: 	#e61052;
+		width: 358px;
+		margin-top: 50px;
+	}
+	#bodyText {
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 10pt;
+		color: 	#6e5e46;
+		width: 358px;
+		margin-top: 15px;
+	}
+/*---------end left column CSS*/
+
+/***CSS for Right side of Bottle***/
+	#RightColumn {
+		position: absolute;
+		top: 285px;
+		right: 365px;
+		z-index: 3;	
+	}
+	.whiteBox {
+		background-color: white;
+		border-radius: 15px;
+		width: 310px;	
+	}
+	.separator {
+		position: absolute;
+		height: 50px;
+		width: 311px;
+		color: #d9cbb6;
+		border-bottom: dotted;
+	}
+	.pinkHeader {
+		font-family: Arial, sans-serif;
+		font-weight: bold;
+		font-size: 11pt;
+		color: 	#e61052;
+		position: relative;
+	}
+	/* Social Media Bubble */
+		#socialMedia {
+			height: 140px;
+		}
+		#sepOne {
+			top: 25px;
+			right: 0px;	
+		}
+		
+		#followTitle {
+			top: 20px;
+			left: 15px;
+		}
+		
+		.socIcon {
+			position: relative;
+			top: 45px;	
+		}
+		#facebook {
+			left: 20px;	
+		}
+		#twitter {
+			left: 35px;	
+		}
+		#googlePlus {
+			left: 55px;	
+		}
+		.boxText {
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: 10pt;
+			position: relative;
+			color: #9f907b;
+			top: 37px;
+		}
+		#faceText {
+			left: 20px;
+		}
+		#twitText {
+			left: 35px;
+		}
+		#googleText {
+			left: 55px;
+		}
+	/*----end Social Media bubble*/
+	
+	/* Randomly Selected bubble*/
+		#raondomSelect {
+			height: 220px;	
+		}
+		#randomTitle {
+			top: 17px;
+			left: 15px;	
+		}
+		.randomBoxText {
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: 10pt;
+			position: relative;
+			color: #9f907b;
+			left: 35px;
+		}
+		.smallArrow {
+			position: relative;
+			left: 15px;	
+		}
+		#arrowOne {
+			top: 30px;	
+		}
+		#itemOne {
+			top: -2px;
+		}
+		#arrowTwo {
+			top: 2px;	
+		}
+		#itemTwo {
+			top: -30px;
+		}
+		#arrowThree {
+			top: -28px;	
+		}
+		#itemThree {
+			top: -60px;
+		}
+		#arrowFour {
+			top: -57px;	
+		}
+		#itemFour {
+			top: -90px;
+		}
+		#arrowFive {
+			top: -88px;	
+		}
+		#itemFive {
+			top: -120px;
+		}
+	/*----end Random bubble */
+	
+	/* Where to Find Us bubble*/
+		#locationBox {
+			height: 185px;	
+		}
+		#locateTitle {
+			top: 17px;
+			left: 15px;	
+		}
+		#whereTo {
+			left: 15px;
+			line-height: 23px;
+		}
+	/*----end Find Us bubble */
+/*------------end CSS for Right column*/
+
+/*** Gallery Section CSS ***/
+
+	#gallery {
+		position: relative;
+		top: 240px;
+		left: 200px;	
+	}
+	#galleryBack {
+		width: 600px;
+		height: 210px;
+		background-color: #9f907b;
+		border-radius: 15px;	
+	}
+	.galButtons {
+		position: relative;	
+	}
+	#galleryLeft {
+		top: 60px;
+		left: -20px;
+	}
+	#galleryRight {
+		top: -4px;
+		left: 573px;
+	}
+	.gallerySymbols {
+		font-weight: bold;
+		font-size: 12pt;
+		color: white;
+		position: absolute;
+		top: 25px;
+		left: 20px;	
+	}
+	
+	.pictures {
+		position: absolute;
+		
+		top: 35px;
+	}
+	#pic1 {
+		left: 35px;		
+	}
+	#pic2 {
+		left: 215px;		
+	}
+	#pic3 {
+		left: 395px;		
+	}
+
+/*--------end Gallery CSS*/
+
+/***News Section CSS***/
+	#newsSection {
+		position: relative;
+		top: 280px;	
+		left: 177px;
+	}
+	.newsBack {
+		background-color: white;
+		border-radius: 15px;
+		width: 643px;
+		height: 300px;	
+	}
+	#headerBar {
+		background-image: url(images/linkDefault.png);
+		background-repeat:repeat-x;
+		border-top-left-radius: 15px;
+		border-top-right-radius: 15px;	
+		width: 644px;
+		height: 70px;
+		font-family: Bebas, sans-serif;
+		color: white;
+	}
+	#newsTitle1 {
+		position: relative;
+		top: 15px;
+		left: 20px;	
+	}
+	#newsTitle2 {
+		position: relative;
+		top: 15px;
+		left: 190px;	
+	}
+/*--------end News sectionCSS*/
