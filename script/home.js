@@ -1,8 +1,12 @@
 // JavaScript Document
 
 $(document).ready(function() {
-	
-	$.colorbox({href: "../images/gallery1.png", slideshow: true});
+	var x=0;
+	$('a.shadowImage').colorbox({rel:'gallery', open: true, slideshow: true}, function() {
+			if ( $( $.colorbox.element() ).attr('id').match('end') ){
+   				$.colorbox.close();
+			}
+	});
 	
 	<!-- Script for Link Hover -->
 	$('.pinkBox').mouseenter(function() {
