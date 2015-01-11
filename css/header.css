@@ -1,5 +1,10 @@
 @charset "utf-8";
 /***CSS for background***/
+
+	.shadowImage {
+		position: absolute;
+		top: 200px;	
+	}
 	body {
 		background-color: #eae2d7;
 	}
@@ -17,7 +22,7 @@
 /***CSS for Title text in Header***/
 	@font-face {
 		font-family: bebas;	
-		src:url(BEBAS___.ttf);
+		src:url(../text/BEBAS___.ttf);
 	}
 	
 	#siteTitle {
@@ -82,34 +87,44 @@
 		height: 57px;
 		position: absolute;
 		top: 170px;
-		background-image: url(images/linkDefault.png);
+		background-image: url(../images/linkDefault.png);
 		background-repeat: repeat-x;
 		z-index: 0;
 	}
-	#homeLink {
-		left: 200px;
-		border-top-left-radius: 15px;
-		border-bottom-left-radius: 15px;
-		behavior: url(PIE-1.0.0/PIE.htc);	
+	.hover, .current {
+		background-image: url(../images/linkHover.png);
+		background-repeat: repeat-x;
 	}
-	#blogLink {
-		left: 370px;	
+	.pinkBox {
+		color: white;
+		border: 2px;
+		border-right: dotted;	
 	}
-	#productsLink {
-		left: 540px;	
-	}
-	#aboutLink {
-		left: 710px;	
-	}
-	#buyLink {
-		left: 880px;	
-	}
-	#contactLink {
-		left: 1050px;
-		border-top-right-radius: 15px;
-		border-bottom-right-radius: 15px;
-		behavior: url(PIE-1.0.0/PIE.htc);	
-	}
+		#homeLink {
+			left: 200px;
+			border-top-left-radius: 15px;
+			border-bottom-left-radius: 15px;
+			behavior: url(../PIE-1.0.0/PIE.htc);	
+		}
+		#blogLink {
+			left: 371px;	
+		}
+		#productsLink {
+			left: 542px;	
+		}
+		#aboutLink {
+			left: 713px;	
+		}
+		#buyLink {
+			left: 884px;	
+		}
+		#contactLink {
+			left: 1055px;
+			border: none;
+			border-top-right-radius: 15px;
+			border-bottom-right-radius: 15px;
+			behavior: url(../PIE-1.0.0/PIE.htc);	
+		}
 	.linkText {
 		font-family: Arial, sans-serif;
 		font-weight: bold;
@@ -117,22 +132,22 @@
 		position: relative;
 		top: 20px;
 	}
-	#homeText {
-		left: 60px;	
-	}
-	#blogText {
-		left: 60px;	
-	}
-	#productsText {
-		left: 19px;	
-	}
-	#aboutText {
-		left: 41px;	
-	}
-	#buyText {
-		left: 21px;	
-	}
-	#contactText {
-		left: 28px;	
-	}
+		#homeText {
+			left: 60px;	
+		}
+		#blogText {
+			left: 60px;	
+		}
+		#productsText {
+			left: 19px;	
+		}
+		#aboutText {
+			left: 41px;	
+		}
+		#buyText {
+			left: 21px;	
+		}
+		#contactText {
+			left: 28px;	
+		}
 /*-------------end CSS for Top Links*/

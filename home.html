@@ -3,13 +3,26 @@
 <head>
 <meta charset="utf-8">
 
-<link href="header.css" rel="stylesheet" type="text/css">
-<link href="body.css" rel="stylesheet" type="text/css">
+<!-- import CSS Files -->
+<link href="css/colorbox.css" rel="stylesheet" type="text/css">
+<link href="css/header.css" rel="stylesheet" type="text/css">
+<link href="css/body.css" rel="stylesheet" type="text/css">
+
+<!-- import Script Files -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="script/jquery.colorbox.js"></script>
+<script src="script/home.js"></script>
 
 <title>X-Plosion</title>
 </head>
 
 <body>
+    <!-- Shadowbox Gallery -->
+    <a class="shadowImage" href="images/gallery1.png"></a>
+    <a class="shadowImage" href="images/gallery2.png"></a>
+    <a class="shadowImage" href="images/gallery3.png"></a>
+    <a class="shadowImage" href="images/gallery4.png"></a>
+
 	<!-- Website Header: gradient, title, captions -->
 	<div id="topGradient"></div>
     <h1 id="siteTitle">X-Plosion</h1>
@@ -27,7 +40,7 @@
     </form>
     
     <!-- Header Links -->
-    <a href="#" class="pinkBox" id="homeLink">
+    <a href="#" class="pinkBox current" id="homeLink">
     	<span class="linkText" id="homeText">HOME</span>
     </a>
     <a href="#" class="pinkBox" id="blogLink">
@@ -126,7 +139,79 @@
                 	<span id="newsTitle1">X-Plosion &nbsp; Products</span>
                     <span id="newsTitle2">X-Plosion &nbsp; Expansion</span>
                 </div>
+                <div id="leftNews">
+                	<!-- Top Left of News -->
+                    <div class="newsQuadrant" id="topLeftNews">
+                        <p class="newsHeader" id="artFlavors">We say NO to artificial flavors</p>
+                        <img class="newsImages" id="topLeft" src="images/news1.png" />
+                        <p class="newsBodyText" id="favorText">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+                        </p>
+                        <div class="moreArrow" id="moreOne">
+                            <span class="newsBodyText moreText">More</span>
+                            <img class="pinkArrow" src="images/pinkArrow.png" />
+                        </div>
+                    </div>
+                    
+                    <!-- Bottom Left of News -->
+                    <div class="newsQuadrant" id="BottomLeftNews">
+                        <p class="newsHeader" id="newFlav">We say NO to artificial flavors</p>
+                        <img class="newsImages" id="topLeft" src="images/news3.png" />
+                        <p class="newsBodyText" id="favorText">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+                        </p>
+                        <div class="moreArrow" id="moreOne">
+                            <span class="newsBodyText moreText">More</span>
+                            <img class="pinkArrow" src="images/pinkArrow.png" />
+                        </div>
+                    </div>
+                </div>
+                
+                 <div id="RightNews">
+                	<!-- Top Right of News -->
+                    <div class="newsQuadrant" id="topRightNews">
+                        <p class="newsHeader" id="japanHit">X-Plosion is a hit in Japan</p>
+                        <img class="newsImages" id="topLeft" src="images/news2.png" />
+                        <p class="newsBodyText" id="favorText">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+                        </p>
+                        <div class="moreArrow" id="moreOne">
+                            <span class="newsBodyText moreText">More</span>
+                            <img class="pinkArrow" src="images/pinkArrow.png" />
+                        </div>
+                    </div>
+                    
+                    <!-- Bottom Right of News -->
+                    <div class="newsQuadrant" id="bottomRightNews">
+                        <p class="newsHeader" id="danishElder">Danish elder hooked on X-Plosion</p>
+                        <img class="newsImages" id="topLeft" src="images/news4.png" />
+                        <p class="newsBodyText" id="favorText">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+                        </p>
+                        <div class="moreArrow" id="moreOne">
+                            <span class="newsBodyText moreText">More</span>
+                            <img class="pinkArrow" src="images/pinkArrow.png" />
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
+        
+        <!-- Footer -->
+        <div class="footer">
+        	<span id="copyright">&copy; Copyright 2011 X-Plosion Ltd.</span>
+            <div id="footLinks">
+            	<a href="#" class="footerLink" id="FAQ">FAQ</a>
+            	<a href="#" class="footerLink" id="terms">Terms</a>
+            	<a href="#" class="footerLink" id="privacy">Privacy Poilicy</a>
+            	<a href="#" class="footerLink" id="contactUs">Contact Us</a>
+            </div>
+        </div>
+
+
 </body>
 </html>
