@@ -2,9 +2,12 @@
 
 $(document).ready(function() {
 	var x=0;
-	$('a.shadowImage').colorbox({rel:'gallery', open: true, slideshow: true}, function() {
-			if ( $( $.colorbox.element() ).attr('id').match('end') ){
-   				$.colorbox.close();
+	$('a.shadowImage').colorbox({rel:'gallery', open: true});
+	$(document).bind('cbox_complete', function() {
+			x++;
+			setTimeout($.colorbox.next, 2000);
+			if ( x == 5 ){
+				$.colorbox.remove();
 			}
 	});
 	
